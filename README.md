@@ -6,10 +6,13 @@
 My goal is to make 3 pages, Home, Massage programs and booking so I started with sketching roughly out a home page by hand in a paper and then created in more details in Balsamiq. In the end I created 4 pages, the additional page is the Success page which is essential to have in my website to make it clear to customers when they are booking. I want to make the website look clean and user friendly and have all the essential information.
 
 ### Wireframes
-Home (link to pdf file)
-Massage programs
-Booking form
-Success page
+[Home](/documentation/wireframe/Home.png)
+
+[Spa Programs](/documentation/wireframe/Spa-programs.png)
+
+[Booking Form](/documentation/wireframe/Booking-form.png)
+
+[Success page](/documentation/wireframe/Success.png)
 
 ### Colours Theme
 Serenity relax&Spa page is a spa website so the colours I chose are warm and welcome tones which I used [Imagecolorpicker](https://imagecolorpicker.com/) to generate colours from my main image so the colours theme goes great together with my image. Moreover, I used [WebAIM:Contrast Checker](https://webaim.org/) to check the contrast of my colours to ensure they are easy to read for users.
