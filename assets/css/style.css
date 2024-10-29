@@ -26,6 +26,7 @@ h1 {
 }
 
 
+
 /* Navbar */
 .navbar {
     background-color: var(--nav-color);
@@ -46,4 +47,13 @@ h1 {
 }
 #header i {
     font-size: 1rem;
+}
+
+/* Spa Programs section */
+.all-spa {
+    font-size: 26px;
+    color: var(--text-color);
+}
+.all-spa:hover {
+    color: rgb(121, 93, 93);
 }
