@@ -4,6 +4,8 @@
 
 /* CSS varieables */
 :root {
+    --primary-font: 'Italianno', serif;
+    --secondary-font: 'Lexend', sans-serif;
     --nav-color: #e1d0a5;
     --background-color: #edeae6;
     --text-color: #41281a;
@@ -15,7 +17,7 @@
 
 /* Global styles */
 body {
-    font-family: 'Lexend', sans-serif;
+    font-family: var(--secondary-font);
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -37,3 +39,10 @@ h1 {
 }
 
 
+/* Header */
+#header h1 {
+    font-weight: 100;
+}
+#header .lead {
+    font-weight: 150;
+}
