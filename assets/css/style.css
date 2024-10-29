@@ -1,10 +1,32 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lexend:wght@100..900&display=swap');
 
+
+/* CSS varieables */
+:root {
+    --nav-color: #e1d0a5;
+    --background-color: #e2d5c1;
+    --text-color: #41281a;
+    --button-bg-color: #93402a;
+    --button-text-color: #fff;
+    --button-hover-color: #cd976f;   
+}
+
+
+/* Global styles */
 body {
     font-family: 'Lexend', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 h1 {
-    font-family: 'Lexend', sans-serif;
     font-weight: 500;
+}
+
+.container, .row {
+    border: 2px solid black;
+}
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
