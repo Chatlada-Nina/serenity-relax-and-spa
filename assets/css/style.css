@@ -9,6 +9,7 @@
     --nav-color: #e1d0a5;
     --background-color: #edeae6;
     --text-color: #41281a;
+    --text-hover-color: #836a5c;
     --button-bg-color: #93402a;
     --button-text-color: #fff;
     --button-hover-color: #cd976f;   
@@ -53,7 +54,31 @@ h1 {
 .all-spa {
     font-size: 26px;
     color: var(--text-color);
+    transition: color 0.2s ease-in-out;
 }
 .all-spa:hover {
-    color: rgb(121, 93, 93);
+    color: var(--text-hover-color);
+}
+
+/* Footer / contact info */
+#contact {
+    background-color: var(--nav-color);
+    color: var(--text-color);
+    padding-bottom: 3rem;
+}
+.contact-info {
+    text-decoration: underline var(--text-color) 1px;
+}
+#contact i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+#contact .social-links i {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out; /* Add transition effect to make hovor colour change smoothy*/
+}
+#contact .social-links i:hover {
+    color: var(--text-hover-color);
 }
