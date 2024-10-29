@@ -30,13 +30,11 @@ h1 {
 .navbar {
     background-color: var(--nav-color);
 }
-.navbar-brand {
-    font-family: 'Italianno', serif;
-    font-size: 3.5rem;
+.navbar-brand img {
+    width: 190px;
+    height: auto;
 }
-.navbar-brand i {
-    font-size: 50%;
-}
+
 
 
 /* Header */
@@ -45,4 +43,7 @@ h1 {
 }
 #header .lead {
     font-weight: 150;
+}
+#header i {
+    font-size: 1rem;
 }
