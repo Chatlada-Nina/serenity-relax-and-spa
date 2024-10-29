@@ -5,7 +5,7 @@
 /* CSS varieables */
 :root {
     --nav-color: #e1d0a5;
-    --background-color: #e2d5c1;
+    --background-color: #edeae6;
     --text-color: #41281a;
     --button-bg-color: #93402a;
     --button-text-color: #fff;
@@ -23,10 +23,15 @@ h1 {
     font-weight: 500;
 }
 
-.container, .row {
-    border: 2px solid black;
+
+/* Navbar */
+.navbar {
+    background-color: var(--nav-color);
 }
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
+.navbar-brand {
+    font-family: 'Italianno', serif;
+    font-size: 3.5rem;
+}
+.navbar-brand i {
+    font-size: 50%;
 }
