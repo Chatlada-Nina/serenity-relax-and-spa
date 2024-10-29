@@ -1,5 +1,7 @@
 **Serenity Relax&Spa** is my fictional spa that I wanted to be my first project because I like to go to a spa and do a massage. The idea started with my interest in the massage & spa so I decided to make a website about it.
 
+This website is for people who are interested in self-care, with chronic pain or muscle tension caused by lifestyle or occupational stress. Serenity Relax&Spa website provides all the informaition for the new and old users who need to know about the spa, spa programs, contact information and a booking form. 
+
 
 ## UX
 
