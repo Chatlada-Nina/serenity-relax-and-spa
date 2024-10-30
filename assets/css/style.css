@@ -38,6 +38,10 @@ h1 {
 .btn-css:hover {
     background-color: var(--button-hover-color);
 }
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 
