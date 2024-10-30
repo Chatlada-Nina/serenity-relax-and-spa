@@ -45,6 +45,7 @@ h1 {
 /* Navbar */
 .navbar {
     background-color: var(--nav-color);
+    min-height: 120px;
 }
 
 
