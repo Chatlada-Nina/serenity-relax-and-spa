@@ -28,6 +28,14 @@ h1 {
 .btn-css {
     border: none;
     background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-css:hover {
+    background-color: var(--button-hover-color);
 }
 
 
@@ -62,6 +70,9 @@ h1 {
 }
 .all-spa:hover {
     color: var(--text-hover-color);
+}
+.card .btn {
+    justify-content: center;
 }
 
 /* Footer / contact info */
@@ -131,3 +142,11 @@ h1 {
     }
 }
 
+/* For extra large screen size (1200px and up) */
+@media screen and (min-width: 1200px) {
+  .card {
+    height: 674.02px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
