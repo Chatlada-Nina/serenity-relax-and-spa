@@ -21,7 +21,7 @@ body {
     font-family: var(--secondary-font);
     background-color: var(--background-color);
     color: var(--text-color);
-    padding-top: 113px; /* Pushes the top of the header down under fixed navbar*/
+    padding-top: 120px; /* Pushes the top of the header down under fixed navbar*/
 }
 h1 {
     font-weight: 500;
@@ -39,7 +39,7 @@ h1 {
     background-color: var(--button-hover-color);
 }
 .section {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -49,7 +49,6 @@ h1 {
 /* Navbar */
 .navbar {
     background-color: var(--nav-color);
-    min-height: 113px;
 }
 
 
@@ -125,10 +124,6 @@ h1 {
     #contact .welcome {
         font-size: 1.5rem;
         margin-top: 20px;
-    }
-    .section {
-        margin-top: 0.6rem;
-        margin-bottom: 0.6rem;
     }
     .all-spa {
         font-size: 16px;
