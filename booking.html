@@ -71,6 +71,7 @@
                     <h3 class="fw-light text-decoration-underline mb-4 text-center text-md-start">Booking information
                     </h3>
                     <form>
+                        
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="member" id="newMember" checked>
                             <label for="newMember" class="form-check-label">New</label>
@@ -79,7 +80,6 @@
                             <input class="form-check-input" type="radio" name="member" id="oldMember">
                             <label for="oldMember" class="form-check-label">Old member</label>
                         </div>
-
                         <div class="row">
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="fullname" class="form-label">Full Name</label>
@@ -95,25 +95,23 @@
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="programSelect" class="form-label">Select Program</label>
-                                <select id="programSelect" class="form-select" name="program-select" required>
-                                    <option selected>Select</option>
-                                    <option value="regular-play">Hot Stone massage</option>
-                                    <option value="dnd">Thai massage</option>
-                                    <option value="retro-night">Swedish massage</option>
-                                    <option value="tournament">Deep tissue massage</option>
-                                    <option value="kids-party">Sports massage</option>
-                                    <option value="kids-party">Aromatherapy massage</option>
-                                    <option value="kids-party">Foot massage</option>
-                                    <option value="kids-party">Couple massage</option>
-                                    <option value="kids-party">Facial treatment</option>
+                                <select id="programSelect" class="form-select" name="programSelect" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="hot-stone">Hot Stone massage</option>
+                                    <option value="thai">Thai massage</option>
+                                    <option value="swedish">Swedish massage</option>
+                                    <option value="deep-tissue">Deep tissue massage</option>
+                                    <option value="sports">Sports massage</option>
+                                    <option value="aroma">Aromatherapy massage</option>
+                                    <option value="foot">Foot massage</option>
+                                    <option value="couple">Couple massage</option>
+                                    <option value="facial">Facial treatment</option>
                                 </select>
                             </div>
-                            <form>
                                 <div class="col-12 mb-3">
                                     <label for="date-time" class="form-label">Date and Time</label>
-                                    <input class="form-control" type="datetime-local" id="date-time" name="dateTime">
+                                    <input class="form-control" type="datetime-local" id="date-time" name="date-time" required>
                                 </div>
-                            </form>
                             <div class="col-12 mb-3">
                                 <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" rows="6" id="message"></textarea>
