@@ -49,7 +49,9 @@ h1 {
 /* Navbar */
 .navbar {
     background-color: var(--nav-color);
+    height: 113px;
 }
+
 
 
 
@@ -77,6 +79,7 @@ h1 {
 .card .btn-css {
     font-size: small;
 }
+
 
 
 /* Footer / contact info */
@@ -142,6 +145,11 @@ h1 {
     }
 }
 
+/* For screen size (768px and up) */
+@media screen and (min-width: 768px) {
+    
+}
+
 /* For large screen size (992px and up) */
 @media screen and (min-width: 992px) {
     #navbar img {
@@ -162,9 +170,9 @@ h1 {
 
 /* For extra large screen size (1200px and up) */
 @media screen and (min-width: 1200px) {
-  .card {
-    height: 674.02px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+    .card {
+        height: 675px;
+        margin-top: 0;
+        margin-bottom: 0;
+      } 
 }

@@ -37,7 +37,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### Navigation bar  
 
-- The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all page to make it as easy as possible for users.
+- The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all pages to make it as easy as possible for users.
 - The nevigation bar allow the users to go to pages without having to revert to the previous page.
 
 ### Header
@@ -47,7 +47,83 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### Home page
 
-- The home page includes the autoplay carousel to show images about the spa, this section allow users to have an image of the spa and want to explore more.
+- The home page includes the autoplay carousel to show images of the spa, this section allow users to have a picture of the spa and feel more engage to visit the spa or want to know more about it and the introduction text after the images.
+
+### The Programs section
+
+- The programs section allows users to see what programs the website has which shows only 3 programs making the home page not too long and provide the link under the program cards if the users want to see more programs in a new page.
+- The program cards show the program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
+
+
+### The Testimonial section
+
+
+### The Footer
+
+- The footer section includes the contact us info, address, phone number, email and social media sites for users.
+- The social media links are showed in icon and when users click on them, they will open to a new tab which make it easy for the users to keep connected via social media.
+
+
+### The Spa Programs page
+
+- This page shows all the programs we have and has the same header and footer as the home page. There are 9 cards used in this page and every cards included an image, program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
+
+### The Booking page
+
+- The booking page will allow users to book the program, choose date and time to visit including a message box if they have some special requirement. All the input (except the message box) needs to fill out before submitting the form.
+
+
+### The Success page
+
+- This page will show up to confirm the booking after users have filled in all the required information and summitted the booking form.
+- The Success page has the same layout as the booking form to make it simple as possible.
+
+
+## Features left to implement
+
+- Testimonial
+
+- Sign up section
+
+
+### Testing
+
+Lighthouse
+
+
+### Bugs
+
+
+
+### Validator Testing
+
+- HTML
+
+- CSS
+
+
+## Deployment
+
+This site was deployed to GitHub page. The steps to deploy are as folows:
+- In the GitHub repository, go to setting tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The link can be found here - https://chatlada-nina.github.io/serenity-relax-and-spa/
+
+## Credits
+
+### Content
+- The font styles in the Serenity Relax&Spa website were taken from Google Fonts [Italianno and Lexend](https://fonts.google.com/share?selection.family=Italianno|Lexend:wght@100..900)
+- The icons in the website were taken from [Font Awesome](https://fontawesome.com/)
+- Wireframes I have used is [Balsamiq](https://balsamiq.com/)
+- The code to make the booking form and the Footer were taken from the CL[Boardwalk Games]( https://github.com/Chatlada-Nina/boardwalk-games) project
+- The introduction text and all descriptions was modified from [ChatGPT](https://chatgpt.com/)
+- All images were taken from [Pexels](https://pexels.com/)
+
+
+
+
 
 
 
