@@ -170,9 +170,5 @@ h1 {
 
 /* For extra large screen size (1200px and up) */
 @media screen and (min-width: 1200px) {
-    .card {
-        height: 675px;
-        margin-top: 0;
-        margin-bottom: 0;
-      } 
+
 }
