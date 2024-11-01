@@ -44,16 +44,11 @@ h1 {
 }
 
 
-
-
 /* Navbar */
 .navbar {
     background-color: var(--nav-color);
-    height: 113px;
+    text-align: center;
 }
-
-
-
 
 
 /* Header */
