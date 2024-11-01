@@ -31,15 +31,15 @@ h1 {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     text-transform: uppercase;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
 }
 .btn-css:hover {
     background-color: var(--button-hover-color);
 }
 .section {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -48,6 +48,9 @@ h1 {
 .navbar {
     background-color: var(--nav-color);
     text-align: center;
+}
+#navbar img {
+    width: 200px;
 }
 
 
@@ -97,7 +100,8 @@ h1 {
 #contact {
     background-color: var(--nav-color);
     color: var(--text-color);
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 .contact-info, .opening-time {
     text-decoration: underline var(--text-color) 1px;
@@ -121,52 +125,45 @@ h1 {
 }
 #contact .welcome {
     font-family: var(--primary-font);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.all-spa {
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 
 
 /* Media Queries */
 
-/* For small screen size (320px and up) */
-@media screen and (min-width: 320px) {
-    #navbar img {
-        width: 200px;
-        height: auto;
-    }
-    #contact {
-        text-align: center;
-    }
-    #contact .welcome {
-        font-size: 1.5rem;
-        margin-top: 20px;
-    }
-    .all-spa {
-        font-size: 16px;
-        margin-bottom: 1rem;
-    }
-}
 
 /* For screen size (576px and up) */
 @media screen and (min-width: 576px) {
-    #contact {
-        text-align: center;
-    }
     #contact .welcome {
         font-size: 2.5rem;
-        margin-top: 20px;
     }
 }
 
 /* For screen size (768px and up) */
 @media screen and (min-width: 768px) {
-    
-}
-
-/* For large screen size (992px and up) */
-@media screen and (min-width: 992px) {
+    .btn-css {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+    .all-spa {
+        font-size: 26px;
+    }
     #navbar img {
         width: 349px;
         height: 113px;
     }
+
+}
+
+
+/* For large screen size (992px and up) */
+@media screen and (min-width: 992px) {
     #contact {
         text-align: left;
     }
@@ -174,12 +171,4 @@ h1 {
         font-size: 4rem;
         margin-top: 20px;
     }
-    .all-spa {
-        font-size: 26px;
-    }
-}
-
-/* For extra large screen size (1200px and up) */
-@media screen and (min-width: 1200px) {
-
 }
