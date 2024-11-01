@@ -84,7 +84,16 @@ h1 {
 .img-reviews {
     max-width: 100px;
     border-radius: 50%;
-    
+
+}
+
+/* Membership section */
+#member i {
+    font-size: 20px;
+}
+
+#member .btn-css {
+    font-size: small;
 }
 
 
