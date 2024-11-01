@@ -57,6 +57,8 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### The Testimonial section
 
+- This section allows the new users to feel more confident to decide to visit us and hopfully book one of our programs. The customer review section is simple but concise, it shows image of user, feedback and name.
+
 
 ### The Footer
 

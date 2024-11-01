@@ -80,6 +80,13 @@ h1 {
     font-size: small;
 }
 
+/* Customer reviews section */
+.img-reviews {
+    max-width: 100px;
+    border-radius: 50%;
+    
+}
+
 
 
 /* Footer / contact info */
