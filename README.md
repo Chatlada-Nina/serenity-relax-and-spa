@@ -28,7 +28,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 1. As a client, I need simple and easy navigation and a user-friendly design that is a responsive layout for my device so I can find information easily and quickly.
 2. As a new client, I want to see images and detailed information about the spa ambience and some of the available programs so that I can decide if It is the right place for me to give it a try.
 3. As a new client, I need to find essential information about location, contact details and opening hours clearly and concisely so I can plan my visit or contact the spa.
-4. As a client, I want to view all the programs in detail on the website  so I can match my needs and decide which program I should do.
+4. As a client, I want to view all the programs in detail on the website so I can match my needs and decide which program I should do.
 5. As a regular client, I want to book the service on the website so that I can reserve my date and time in my schedule.
 6. As a massage lover, I want to see if there are special discounts for a member or any promotions, so I can decide if I want to be a member to plan my visit within my budget.
 7. As a new client, I want to read testimonials from previous clients so that I can feel more confident about booking a program.
@@ -120,8 +120,9 @@ The link can be found here - https://chatlada-nina.github.io/serenity-relax-and-
 - The icons in the website were taken from [Font Awesome](https://fontawesome.com/)
 - Wireframes I have used is [Balsamiq](https://balsamiq.com/)
 - The code to make the booking form and the Footer were taken from the CL[Boardwalk Games]( https://github.com/Chatlada-Nina/boardwalk-games) project
-- The introduction text and all descriptions was modified from [ChatGPT](https://chatgpt.com/)
+- The introduction text and all descriptions including reviews text were modified from [ChatGPT](https://chatgpt.com/)
 - All images were taken from [Pexels](https://pexels.com/)
+- The testimonial section was taken from [Specific Youtube Tutorial](https://www.youtube.com/watch?v=MQn-xLjZglc)
 
 
 
