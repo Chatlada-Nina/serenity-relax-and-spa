@@ -51,36 +51,47 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 - The home page includes the autoplay carousel to show images of the spa, this section allow users to have a picture of the spa and feel more engage to visit the spa or want to know more about it and the introduction text after the images.
 
+![Screenshot of the home page in the website](/documentation/readme/home-page.png)
+
 ### The Programs section
 
 - The programs section allows users to see what programs the website has which shows only 3 programs making the home page not too long and provide the link under the program cards if the users want to see more programs in a new page.
 - The program cards show the program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
 
+![Screenshot of the programs section in the home page](/documentation/readme/program-section.png)
 
 ### The Testimonial section
 
 - This section allows the new users to feel more confident to decide to visit us and hopfully book one of our programs. The customer review section is simple but concise, it shows image of user, feedback and name.
 
+![Screenshot of the testimonials in the homepage](/documentation/readme/testimonials.png)
 
 ### The Footer
 
 - The footer section includes the contact us info, address, phone number, email and social media sites for users.
 - The social media links are showed in icon and when users click on them, they will open to a new tab which make it easy for the users to keep connected via social media.
 
+![Screenshot of the footer in the website](/documentation/readme/footer.png)
 
 ### The Spa Programs page
 
 - This page shows all the programs we have and has the same header and footer as the home page. There are 9 cards used in this page and every cards included an image, program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
 
+![Screenshot of the spa programs page in the website](/documentation/readme/programs-page.png)
+
 ### The Booking page
 
 - The booking page will allow users to book the program, choose date and time to visit including a message box if they have some special requirement. All the input (except the message box) needs to fill out before submitting the form.
+
+![Screenshot of the booking page in the website](/documentation/readme/booking.png)
 
 
 ### The Success page
 
 - This page will show up to confirm the booking after users have filled in all the required information and summitted the booking form.
 - The Success page has the same layout as the booking form to make it simple as possible.
+
+![Screenshot of the success page in the website](/documentation/readme/success.png)
 
 
 ## Features left to implement
