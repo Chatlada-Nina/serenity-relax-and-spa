@@ -40,7 +40,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 - The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all pages to make it as easy as possible for users.
 - The nevigation bar allow the users to go to pages without having to revert to the previous page.
 
-![Screenshot of the navigation bar in the website](../serenity-relax-and-spa/documentation/features-pics/navigation-bar.png)
+![Screenshot of the navigation bar in the website](/documentation/readme/navigation-bar.png)
 
 ### Header
 
