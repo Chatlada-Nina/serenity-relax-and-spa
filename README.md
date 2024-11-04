@@ -105,7 +105,7 @@ Sign up section
 
 ## Testing
 
-Lighthouse
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 
 ### Bugs discovered
@@ -118,8 +118,6 @@ Lighthouse
    - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
 
 
-
-
 ### Validator Testing
 
 - HTML - I used [W3C Markup Validation Service](https://validator.w3.org/) to check and validate the HTML code.
@@ -127,14 +125,33 @@ Lighthouse
 - CSS - I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check and validate the CSS code.
 
 
-## Deployment
+## Deployment & Local deployment
+### Deployment
 
 This site was deployed to GitHub page. The steps to deploy are as folows:
-- In the GitHub repository, go to setting tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+1. In the GitHub repository, go to setting tab.
+2. From the source section drop-down menu, select the Master Branch.
+3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The link can be found here - https://chatlada-nina.github.io/serenity-relax-and-spa/
+The link can be found here - [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/) 
+
+### Local Deployment
+
+#### How to Fork
+
+To fork the repository:
+1. Login (or sign up) to Github.
+2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/)
+3. Click the fork button in the top right corner.
+
+#### How to clone
+
+To clone the repository:
+1. Login (or sign up) to Github
+2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Credits
 
@@ -149,6 +166,12 @@ The link can be found here - https://chatlada-nina.github.io/serenity-relax-and-
 - The code to make the booking form and the Footer were taken from the CL[Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode/tree/main) project and modified to suit the website needs.
 - Template code for carousel, cards, customer reviews and modal(Become a member) using Bootstrap classes taken from [Bootstrap v5.3](https://getbootstrap.com/) and modified to suit the website needs.
 - The testimonial section was learned and modified from [Specific Youtube Tutorial](https://www.youtube.com/watch?v=MQn-xLjZglc)
+
+### Acknowledgments
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My code Institute mentor.
+* Eric - my partner who is always supportive and beleive in me.
 
 
 
