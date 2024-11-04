@@ -40,6 +40,8 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 - The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all pages to make it as easy as possible for users.
 - The nevigation bar allow the users to go to pages without having to revert to the previous page.
 
+![Screenshot of the navigation bar in the website](../serenity-relax-and-spa/documentation/features-pics/navigation-bar.png)
+
 ### Header
 
 - The header shows the logo and the navigation. The logo I created in Canva which included name and the lotus flower as a background. The symbolic of peacefulness and calm. I use the same colours as in the website to keep it clean and simple.
@@ -83,25 +85,31 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ## Features left to implement
 
-- Testimonial
+Testimonials/Customer Reviews
+- I would like to add a textarea where users can write reviews. This section could help sit's owner improve the service and users get to share their experience to another users.
 
-- Sign up section
+Sign up section
+- I would like to add the sign up form page by using Bootstrap to create form similar to the booking form.
 
 
-### Testing
+## Testing
 
 Lighthouse
 
 
-### Bugs
+### Bugs discovered
+The radio button in the Booking form doesn't work properly
+- When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
+- I found out that I have different value for name attributes so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wished. 
+
 
 
 
 ### Validator Testing
 
-- HTML
+- HTML - I used [W3C Markup Validation Service](https://validator.w3.org/) to check and validate the HTML code.
 
-- CSS
+- CSS - I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check and validate the CSS code.
 
 
 ## Deployment
@@ -119,17 +127,13 @@ The link can be found here - https://chatlada-nina.github.io/serenity-relax-and-
 - The font styles in the Serenity Relax&Spa website were taken from Google Fonts [Italianno and Lexend](https://fonts.google.com/share?selection.family=Italianno|Lexend:wght@100..900)
 - The icons in the website were taken from [Font Awesome](https://fontawesome.com/)
 - Wireframes I have used is [Balsamiq](https://balsamiq.com/)
-- The code to make the booking form and the Footer were taken from the CL[Boardwalk Games]( https://github.com/Chatlada-Nina/boardwalk-games) project
 - The introduction text and all descriptions including reviews text were modified from [ChatGPT](https://chatgpt.com/)
+### Media
 - All images were taken from [Pexels](https://pexels.com/)
-- The testimonial section was taken from [Specific Youtube Tutorial](https://www.youtube.com/watch?v=MQn-xLjZglc)
-
-
-
-
-
-
-
+### Code
+- The code to make the booking form and the Footer were taken from the CL[Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode/tree/main) project and modified to suit the website needs.
+- Template code for carousel, cards, customer reviews and modal(Become a member) using Bootstrap classes taken from [Bootstrap v5.3](https://getbootstrap.com/) and modified to suit the website needs.
+- The testimonial section was learned and modified from [Specific Youtube Tutorial](https://www.youtube.com/watch?v=MQn-xLjZglc)
 
 
 
