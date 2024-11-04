@@ -25,7 +25,7 @@ I wanted to keep my website simple and clean so I used 2 different font styles. 
 Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media icons in the footer to help customers quickly and easily identify my social media sites.
 
 ## User stories
-1. As a client, I need simple and easy navigation and a user-friendly design that is a responsive layout for my device so I can find information easily and quickly.
+1. As a client, I need a simple and easy navigation and a user-friendly design that is a responsive layout for my device so I can find information easily and quickly.
 2. As a new client, I want to see images and detailed information about the spa ambience and some of the available programs so that I can decide if It is the right place for me to give it a try.
 3. As a new client, I need to find essential information about location, contact details and opening hours clearly and concisely so I can plan my visit or contact the spa.
 4. As a client, I want to view all the programs in detail on the website so I can match my needs and decide which program I should do.
@@ -111,7 +111,7 @@ Lighthouse
 ### Bugs discovered
 The radio button in the Booking form doesn't work properly
 - When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
-- I found out that I have different value for name attributes so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wished. 
+- I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
 
 
 
