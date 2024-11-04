@@ -7,7 +7,7 @@
     --primary-font: 'Italianno', serif;
     --secondary-font: 'Lexend', sans-serif;
     --nav-color: #e1d0a5;
-    --background-color: #edeae6;
+    --background-color: #fdfcfb;
     --text-color: #41281a;
     --text-hover-color: #836a5c;
     --button-bg-color: #93402a;
@@ -82,19 +82,10 @@ h1 {
 .img-reviews {
     max-width: 100px;
     border-radius: 50%;
-
 }
-
-/* Membership section */
-#member i {
-    font-size: 20px;
+.blockquote-footer {
+    color: var(--text-color);
 }
-
-#member .btn-css {
-    font-size: small;
-}
-
-
 
 /* Footer / contact info */
 #contact {
