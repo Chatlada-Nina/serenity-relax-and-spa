@@ -109,9 +109,13 @@ Lighthouse
 
 
 ### Bugs discovered
-The radio button in the Booking form doesn't work properly
-- When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
-- I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
+
+- CSS didn't work out for the first deployment
+   - When I opened the first deployment in the new tab the website didn't show the style only the plain HTML so I edited the CSS link in HTML and removed the slash(/) to change that to a relative link. Now, all styles show up and work fine.
+
+- The radio button in the Booking form didn't work properly
+   - When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
+   - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
 
 
 
