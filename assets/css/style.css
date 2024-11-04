@@ -158,6 +158,10 @@ h1 {
         width: 349px;
         height: 113px;
     }
+    .section {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
 
 }
 
