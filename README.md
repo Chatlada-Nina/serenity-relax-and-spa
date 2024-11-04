@@ -40,12 +40,12 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 - The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all pages to make it as easy as possible for users.
 - The nevigation bar allow the users to go to pages without having to revert to the previous page.
 
-![Screenshot of the navigation bar in the website](/documentation/readme/navigation-bar.png)
-
 ### Header
 
 - The header shows the logo and the navigation. The logo I created in Canva which included name and the lotus flower as a background. The symbolic of peacefulness and calm. I use the same colours as in the website to keep it clean and simple.
 - The header sticks to the top of all pages and when the users start scrolling down, This will goes with the users to allow accessible at all time to the navigation bar.
+
+![Screenshot of the navigation bar in the website](/documentation/readme/navigation-bar.png)
 
 ### Home page
 
