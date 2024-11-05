@@ -1,7 +1,43 @@
 # Serenity Relax&Spa
+
+![The website shown on a variety of screen sizes](/documentation/readme/screen-responsive.png)
+
 Serenity Relax&Spa is my fictional spa that I wanted to be my first project because I like to go to a spa and do a massage. The idea started with my interest in the massage & spa so I decided to make a website about it.
 
 This website is for people who are interested in self-care, with chronic pain or muscle tension caused by lifestyle or occupational stress. Serenity Relax&Spa website provides all the informaition for the new and old users who need to know about the spa, spa programs, contact information and a booking form. 
+
+## CONTENTS
+
+* [UX - User Experience](#ux)
+  * [Wireframes](#wireframes)
+  * [Colours Theme](#colours-theme)
+  * [Typography](#typography)
+  * [User stories](#user-stories)
+
+* [Features](#features)
+  * [Navigation bar](#navigation-bar)
+  * [Header](#header)
+  * [Home page](#home-page)
+  * [The Programs section](#the-programs-section)
+  * [The Testimonial section](#the-testimonial-section)
+  * [The Footer](#the-footer)
+  * [The Spa Programs page](#the-spa-programs-page)
+  * [The Booking page](#the-booking-page)
+  * [The Success page](#the-success-page)
+  * [Features left to implement](#features-left-to-implement)
+
+* [Testing](#testing)
+  * [Bugs discovered](#bugs-discovered)
+
+* [Deployment & Local deployment](#deployment-&-Local-deployment)
+  * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+
+* [Credits](#credits)
+  * [Content](#contents)
+  * [Media](#media)
+  * [Code](#code)
+  * [Acknowledgments](#acknowledgments)
 
 
 ## UX
@@ -24,7 +60,7 @@ Serenity relax&Spa page is a spa website so the colours I chose are warm and wel
 I wanted to keep my website simple and clean so I used 2 different font styles. My spa's name and the ending text in the footer, I used [Italiano](https://fonts.google.com/specimen/italiano) because It looks elegant and It is a hand-writing font style which makes it perfect for my page’s name and the rest of the text I used [Lexend](https://fonts.google.com/specimen/Lexend) because It intends to reduce visual stress and improve reading performance for the users. 
 Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media icons in the footer to help customers quickly and easily identify my social media sites.
 
-## User stories
+### User stories
 1. As a client, I need a simple and easy navigation and a user-friendly design that is a responsive layout for my device so I can find information easily and quickly.
 2. As a new client, I want to see images and detailed information about the spa ambience and some of the available programs so that I can decide if It is the right place for me to give it a try.
 3. As a new client, I need to find essential information about location, contact details and opening hours clearly and concisely so I can plan my visit or contact the spa.
@@ -116,13 +152,6 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 - The radio button in the Booking form didn't work properly
    - When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
    - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
-
-
-### Validator Testing
-
-- HTML - I used [W3C Markup Validation Service](https://validator.w3.org/) to check and validate the HTML code.
-
-- CSS - I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check and validate the CSS code.
 
 
 ## Deployment & Local deployment
