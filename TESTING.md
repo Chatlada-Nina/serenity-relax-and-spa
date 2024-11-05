@@ -34,6 +34,8 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 - To improve the Lighthouse accessibility score, I changed the color of customer's name on the testimonials section to be darker to make the clearer contrast and more readable for users.
 
 - Unresolved issue on the Lighthouse Best Practices score, Browser errors were logged to the console. They can come from network request failures and other browser concerns.
+
+![best-practices-issue](/documentation/readme/unsolved-issue.png)
   
 
 1. Home page
