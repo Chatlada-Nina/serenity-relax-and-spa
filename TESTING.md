@@ -1,10 +1,12 @@
 # Serenity Relax&Spa - Testing
 
+![The website shown on a variety of screen sizes](/documentation/readme/screen-responsive.png)
+
 ## CONTENTS
 
 * [AUTOMATED TESTING](#automated-testing)
-  * [HTML](#w3c-validator)
-  * [CSS](#w3c-validator)
+  * [HTML](#html)
+  * [CSS](#css)
   * [Lighthouse](#lighthouse)
 * [MANUAL TESTING](#manual-testing)
   * [Full Testing](#full-testing)
@@ -59,9 +61,66 @@ Each device tested the site using the following browsers:
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
-| How to play button | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |
-| Modal close button | Closes the modal | Clicked on close button | Modal closed | Pass |
-| Play Button | Directs the user to the game page | Clicked on button | Game page opens to display the difficulty selections | Pass |
-| High Scores Button | Directs the user to the high scores page | Clicked on button | Directs to the high scores page | Pass |
-| All buttons - hover effect | All black buttons with white text should change to white with black text when hovered over. | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| 🍺 Cursor | The 🍺 should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the 🍺 cursor | Pass |
+| Home | Link to the home page and shows in darker color when it's active| Clicked on the text | Home page reloads | Pass |
+| Spa Programs | Link directs the user to the Programs page | Clicked on the text | Programs page opens | Pass |
+| Contact | Directs the user to the contact section on the footer | Clicked on the text | Directs the user to the contact section on the footer | Pass |
+| BOOK NOW Button | Directs the user to the booking page | Clicked on button | Directs to the booking page | Pass |
+| All buttons - hover effect | All brown buttons with white text should change to light brown with dark-gray text when hovered over. | Hover over each button on the page | Each button displayed correctly styling when hovered over | Pass |
+| Pointer Cursor | The pointer should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the pointer cursor | Pass |
+| Link "See all spa programs" | Link directs the user to the Programs page | Clicked on the text | Programs page opens | Pass |
+| Link "See all spa programs" - hover effect | Text color should change to light brown color when hovered over. | Hover over the text | The text displayed correctly styling when hovered over | Pass |
+| Social media icons | Link directs the user to each social media sites | Clicked on each icon | Social media site open in a new tab | Pass |
+| Social media icons - hover effect | Icons color should change to light brown color when hovered over. | Hover over each icon | The icons displayed correctly styling when hovered over | Pass |
+
+
+`Programs Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| Home | Link users back to the home page | Clicked on the text | Home page reloads | Pass |
+| Spa Programs | shows in darker color when it's active | Clicked on the text | Programs page reloads | Pass |
+| Contact | Directs the user to the contact section on the footer | Clicked on the text | Directs the user to the contact section on the footer | Pass |
+| BOOK NOW Button | Directs the user to the booking page | Clicked on button | Directs to the booking page | Pass |
+| All buttons - hover effect | All brown buttons with white text should change to light brown with dark-gray text when hovered over. | Hover over each button on the page | Each button displayed correctly styling when hovered over | Pass |
+| Pointer Cursor | The pointer should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the pointer cursor | Pass |
+| Social media icons | Link directs the user to each social media sites | Clicked on each icon | Social media site open in a new tab | Pass |
+| Social media icons - hover effect | Icons color should change to light brown color when hovered over. | Hover over each icon | The icons displayed correctly styling when hovered over | Pass |
+
+
+`Booking Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| Home | Link users back to the home page | Clicked on the text | Home page reloads | Pass |
+| Spa Programs | Link users back to the home page | Clicked on the text | Programs page reloads | Pass |
+| Contact | Directs user to the contact section on the footer | Clicked on the text | Directs user to the contact section on the footer | Pass |
+| BOOK NOW Button | Directs user to the booking page | Clicked on button | Directs user to the booking page | Pass |
+| Radio button | Shows checked on New button always and users can check only one radio button either New or Old | Clicked on each button | Can check only one radio button either New or Old | Pass |
+| Fullname input | User must fill in their name before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
+| Phone number input | User must fill in their phone number before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
+| E-mail input | User must fill in their e-mail before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
+| Select programs input | User must select a program before submitting the form| tried to click Submit without select any program | A required message popped up | Pass |
+| Date and Time input | User must select date and time before submitting the form| tried to click Submit without select any date and time | A required message popped up | Pass |
+| Message input | User can write something there or leave it empty | Writed something and clicked submit, leaved it empty and clicked submit | Directs user to the success page | Pass |
+| All buttons - hover effect | All brown buttons with white text should change to light brown with dark-gray text when hovered over. | Hover over each button on the page | Each button displayed correctly styling when hovered over | Pass |
+| Pointer Cursor | The pointer should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the pointer cursor | Pass |
+| Social media icons | Link directs the user to each social media sites | Clicked on each icon | Social media site open in a new tab | Pass |
+| Social media icons - hover effect | Icons color should change to light brown color when hovered over. | Hover over each icon | The icons displayed correctly styling when hovered over | Pass |
+
+
+`Success Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites logo | Link directs the user back to the home page | Clicked logo | Home page reloads | Pass |
+| Home | Link users back to the home page | Clicked on the text | Home page reloads | Pass |
+| Spa Programs | Link users back to the spa programs page | Clicked on the text | Programs page reloads | Pass |
+| Contact | Directs the user to the contact section on the footer | Clicked on the text | Directs the user to the contact section on the footer | Pass |
+| BOOK NOW Button | Directs the user to the booking page | Clicked on button | Directs to the booking page | Pass |
+| Return to the home page Button | Directs the user back to the home page | Clicked on button | Directs to the home page | Pass |
+| All buttons - hover effect | All brown buttons with white text should change to light brown with dark-gray text when hovered over. | Hover over each button on the page | Each button displayed correctly styling when hovered over | Pass |
+| Pointer Cursor | The pointer should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the pointer cursor | Pass |
+| Social media icons | Link directs the user to each social media sites | Clicked on each icon | Social media site open in a new tab | Pass |
+| Social media icons - hover effect | Icons color should change to light brown color when hovered over. | Hover over each icon | The icons displayed correctly styling when hovered over | Pass |
