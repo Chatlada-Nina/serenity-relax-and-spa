@@ -57,7 +57,7 @@ My goal is to make 3 pages, Homepage, Spa programs page and booking form page so
 Serenity relax&Spa page is a spa website so the colours I chose are warm and welcome tones which I used [Imagecolorpicker](https://imagecolorpicker.com/) to generate colours from my main image so the colours theme goes great together with my image. Moreover, I used [WebAIM:Contrast Checker](https://webaim.org/) to check the contrast of my colours to ensure they are easy to read for users.
 
 ### Typography
-I wanted to keep my website simple and clean so I used 2 different font styles. My spa's name and the ending text in the footer, I used [Italiano](https://fonts.google.com/specimen/italiano) because It looks elegant and It is a hand-writing font style which makes it perfect for my page’s name and the rest of the text I used [Lexend](https://fonts.google.com/specimen/Lexend) because It intends to reduce visual stress and improve reading performance for the users. 
+I wanted to keep my website simple and clean so I used 2 different font styles. My spa's name and the ending text in the footer, I used [Italiano](https://fonts.google.com/specimen/Italianno?query=ita) because It looks elegant and It is a hand-writing font style which makes it perfect for my page’s name and the rest of the text I used [Lexend](https://fonts.google.com/specimen/Lexend?query=lexen) because It intends to reduce visual stress and improve reading performance for the users. 
 Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media icons in the footer to help customers quickly and easily identify my social media sites.
 
 ### User stories
@@ -78,7 +78,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### Header
 
-- The header shows the logo and the navigation. The logo I created in Canva which included name and the lotus flower as a background. The symbolic of peacefulness and calm. I use the same colours as in the website to keep it clean and simple.
+- The header shows the logo and the navigation. The logo I created in [Canva](https://www.canva.com/en_gb/) which included name and the lotus flower as a background. The symbolic of peacefulness and calm. I use the same colours as in the website to keep it clean and simple.
 - The header sticks to the top of all pages and when the users start scrolling down, This will goes with the users to allow accessible at all time to the navigation bar.
 
 ![Screenshot of the navigation bar in the website](/documentation/readme/navigation-bar.png)
@@ -136,7 +136,7 @@ Testimonials/Customer Reviews
 - I would like to add a textarea where users can write reviews. This section could help sit's owner improve the service and users get to share their experience to another users.
 
 Sign up section
-- I would like to add the sign up form page by using Bootstrap to create form similar to the booking form.
+- I would like to add the sign up section after the testimonials in the home page and create a sign up form by using Bootstrap to create form similar to the booking form.
 
 
 ## Testing
@@ -162,7 +162,7 @@ This site was deployed to GitHub page. The steps to deploy are as folows:
 2. From the source section drop-down menu, select the Master Branch.
 3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The link can be found here - [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/) 
+The site is deployed using GitHub Pages - [Serenity Relax&Spa](https://chatlada-nina.github.io/serenity-relax-and-spa/) 
 
 ### Local Deployment
 
@@ -170,14 +170,14 @@ The link can be found here - [chatlada-nina/serenity-relax-and-spa](https://chat
 
 To fork the repository:
 1. Login (or sign up) to Github.
-2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/)
+2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://github.com/Chatlada-Nina/serenity-relax-and-spa)
 3. Click the fork button in the top right corner.
 
 #### How to clone
 
 To clone the repository:
 1. Login (or sign up) to Github
-2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://chatlada-nina.github.io/serenity-relax-and-spa/)
+2. Go to repository for this project, [chatlada-nina/serenity-relax-and-spa](https://github.com/Chatlada-Nina/serenity-relax-and-spa)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -191,13 +191,14 @@ To clone the repository:
 - The introduction text and all descriptions including reviews text were modified from [ChatGPT](https://chatgpt.com/)
 ### Media
 - All images were taken from [Pexels](https://pexels.com/)
+- Testimonials images were taken from [Wikipedia](https://www.wikipedia.org/)
 ### Code
 - The code to make the booking form and the Footer were taken from the CL[Boardwalk Games](https://github.com/Code-Institute-Solutions/boardwalk-games-v1-sourcecode/tree/main) project and modified to suit the website needs.
-- Template code for carousel, cards, customer reviews and modal(Become a member) using Bootstrap classes taken from [Bootstrap v5.3](https://getbootstrap.com/) and modified to suit the website needs.
+- Template code for navigation bar, carousel, cards and customer reviews using Bootstrap classes taken from [Bootstrap v5.3](https://getbootstrap.com/) and modified to suit the website needs.
 - The testimonial section was learned and modified from [Specific Youtube Tutorial](https://www.youtube.com/watch?v=MQn-xLjZglc)
 
 ### Acknowledgments
-I would like to acknowledge the following people:
+I would like to thank you the following people:
 
 * Jubril Akolade - My code Institute mentor.
 * Eric - my partner who is always supportive and beleive in me.
