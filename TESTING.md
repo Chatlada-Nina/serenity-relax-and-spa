@@ -28,21 +28,27 @@
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility and best practices of the website.
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility and best practices of the website. 
+- To improve the Lighthouse performance score, I evaluated the image sizes issues and converted the images file(jpeg,png) to .webp
+- To improve the Lighthouse accessibility score, I changed the body's background color to be a bit lighther on every pages to make the clearer contrast and more readable for users.
+- To improve the Lighthouse accessibility score, I changed the color of customer's name on the testimonials section to be darker to make the clearer contrast and more readable for users.
 
-- Home page
+- Unresolved issue on the Lighthouse Best Practices score, Browser errors were logged to the console. They can come from network request failures and other browser concerns.
+  
+
+1. Home page
 
 ![index.html](/documentation/readme/homepage-lighthouse.png)
 
-- Programs page
+2. Programs page
 
 ![programs.html](/documentation/readme/programs-lighthouse.png)
 
-- Booking page
+3. Booking page
 
 ![booking.html](/documentation/readme/booking-lighthouse.png)
 
-- Success page
+4. Success page
 
 ![success.html](/documentation/readme/success-lighthouse.png)
 
