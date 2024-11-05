@@ -123,7 +123,7 @@
           <div class="card h-100">
             <img src="assets/images/thai-massage.webp" class="card-img-top" alt="thai-massage">
             <div class="card-body">
-              <h4 class="card-title">Thai massage</h4>
+              <h3 class="card-title fs-4">Thai massage</h3>
               <p class="card-text">Thai massage is a unique therapeutic practice that combines acupressure, gentle
                 stretching, and rhythmic movement. Performed on a mat while fully clothed, it promotes relaxation,
                 improves flexibility, and stimulates energy flow. This ancient art aims to balance body and mind,
@@ -139,7 +139,7 @@
           <div class="card h-100">
             <img src="assets/images/facial-treatment.webp" class="card-img-top" alt="facial-treatment">
             <div class="card-body">
-              <h4 class="card-title">Facial treatment</h4>
+              <h3 class="card-title fs-4">Facial treatment</h3>
               <p class="card-text">Experience rejuvenation with our facial treatment, designed to cleanse, exfoliate,
                 and hydrate your skin. Enjoy a relaxing massage and nourishing products for a radiant, youthful glow
                 that lasts.</p>
@@ -154,7 +154,7 @@
           <div class="card h-100">
             <img src="assets/images/couple-massage.webp" class="card-img-top" alt="couple-massage">
             <div class="card-body">
-              <h4 class="card-title">Couple massage</h4>
+              <h3 class="card-title fs-4">Couple massage</h3>
               <p class="card-text">Couple massage is a shared therapeutic experience where partners receive simultaneous
                 massages in the same room. This intimate setting fosters relaxation and connection, allowing couples to
                 unwind together. Skilled therapists tailor techniques to each individuals needs, promoting stress
@@ -295,6 +295,29 @@
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/32f8251277.js" crossorigin="anonymous"></script>
+
+  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+   <!-- This code was taken from the CL Boardwalk Games project -->
+<script>
+  document
+      .querySelectorAll(".navbar-collapse .nav-link")
+      .forEach((link) => {
+          link.addEventListener("click", function (e) {
+              let section = document.querySelector(e.target.getAttribute("href"));
+              if (section) {
+                  e.preventDefault(); // Prevent default anchor click behavior
+                  let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                  window.scroll({
+                      top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                      behavior: "smooth",
+                  });
+                  document
+                      .querySelector(".navbar-collapse")
+                      .classList.remove("show"); // Collapse navbar
+              }
+          });
+      });
+</script>
 
 </body>
 
