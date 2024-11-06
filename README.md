@@ -151,7 +151,9 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 - The radio button in the Booking form didn't work properly
    - When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
-   - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted. 
+   - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted.
+
+- During the deployment I have a temporary issue from Github which showed failed to deploy but not something cause by my code.
 
 
 ## Deployment & Local deployment
