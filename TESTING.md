@@ -32,12 +32,9 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 - To improve the Lighthouse performance score, I evaluated the image sizes issues and converted the images file(jpeg,png) to .webp
 - To improve the Lighthouse accessibility score, I changed the body's background color to be a bit lighther on every pages to make the clearer contrast and more readable for users.
 - To improve the Lighthouse accessibility score, I changed the color of customer's name on the testimonials section to be darker to make the clearer contrast and more readable for users.
-
-- Unresolved issue on the Lighthouse Best Practices score, Browser errors were logged to the console. They can come from network request failures and other browser concerns.
-
-![best-practices-issue](/documentation/readme/unsolved-issue.png)
+- To improve the Lighthouse Best Practices score, I deleted issued link (site.webmanifest) from Favicon which caused the browser errors on my site, now the site is healthy and followed modern standards of web development.
+ 
   
-
 1. Home page
 
 ![index.html](/documentation/readme/homepage-lighthouse.png)
