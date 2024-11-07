@@ -2,7 +2,7 @@
 
 ![The website shown on a variety of screen sizes](/documentation/readme/screen-responsive.png)
 
-Serenity Relax&Spa is my fictional spa that I wanted to be my first project because I like to go to a spa and do a massage. The idea started with my interest in the massage & spa so I decided to make a website about it.
+**Serenity Relax&Spa** is my fictional spa that I wanted to be my first project because I like to go to a spa and do a massage. The idea started with my interest in the massage & spa so I decided to make a website about it.
 
 This website is for people who are interested in self-care, with chronic pain or muscle tension caused by lifestyle or occupational stress. Serenity Relax&Spa website provides all the informaition for the new and old users who need to know about the spa, spa programs, contact information and a booking form. 
 
@@ -54,7 +54,7 @@ My goal is to make 3 pages, Homepage, Spa programs page and booking form page so
 [Success page](/documentation/wireframe/Success.png)
 
 ### Colours Theme
-Serenity relax&Spa page is a spa website so the colours I chose are warm and welcome tones which I used [Imagecolorpicker](https://imagecolorpicker.com/) to generate colours from my main image so the colours theme goes great together with my image. Moreover, I used [WebAIM:Contrast Checker](https://webaim.org/) to check the contrast of my colours to ensure they are easy to read for users.
+Serenity relax&Spa page is a spa website so the colours I chose are warm and welcoming tones which I used [Imagecolorpicker](https://imagecolorpicker.com/) to generate colours from my main image so the colours theme goes great together with my images. Moreover, I used [WebAIM:Contrast Checker](https://webaim.org/) to check the contrast of my colours to ensure they are easy to read for users.
 
 ### Typography
 I wanted to keep my website simple and clean so I used 2 different font styles. My spa's name and the ending text in the footer, I used [Italiano](https://fonts.google.com/specimen/Italianno?query=ita) because It looks elegant and It is a hand-writing font style which makes it perfect for my page’s name and the rest of the text I used [Lexend](https://fonts.google.com/specimen/Lexend?query=lexen) because It intends to reduce visual stress and improve reading performance for the users. 
@@ -73,8 +73,8 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### Navigation bar  
 
-- The responsive navigation bar including link to the Homepage, Spa programs, Contact and Booking button found on all pages to make it as easy as possible for users.
-- The nevigation bar allow the users to go to pages without having to revert to the previous page.
+- The responsive navigation bar including link to the Home page, Spa programs, Contact and Booking button found on all pages to make it accessible as possible for users.
+- The nevigation bar allow the users to go to pages without having to return to the previous page.
 
 ### Header
 
@@ -85,7 +85,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### Home page
 
-- The home page includes the autoplay carousel to show images of the spa, this section allow users to have a picture of the spa and feel more engage to visit the spa or want to know more about it and the introduction text after the images.
+- The home page includes the autoplay carousel to show images of the spa, this section allow users to have a picture of the spa and feel more engaging to visit the spa and want to know more about it, following by the introduction text right after the carousel.
 
 ![Screenshot of the home page in the website](/documentation/readme/home-page.png)
 
@@ -105,13 +105,13 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 ### The Footer
 
 - The footer section includes the contact us info, address, phone number, email and social media sites for users.
-- The social media links are showed in icon and when users click on them, they will open to a new tab which make it easy for the users to keep connected via social media.
+- The social media links are showed in icon and when users click on them, they will open in a new tab which make it easy for the users to keep connected via social media.
 
 ![Screenshot of the footer in the website](/documentation/readme/footer.png)
 
 ### The Spa Programs page
 
-- This page shows all the programs we have and has the same header and footer as the home page. There are 9 cards used in this page and every cards included an image, program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
+- This page shows all the programs the site has and has the same header and footer as the home page. There are 9 cards used in this page and every cards included an image, program's name, description, duration, price and a booking button to nevigate to the booking form if the users want to book the time immediately.
 
 ![Screenshot of the spa programs page in the website](/documentation/readme/programs-page.png)
 
@@ -124,7 +124,7 @@ Additionally, I use [Font Awesome](https://fontawesome.com/) for my social media
 
 ### The Success page
 
-- This page will show up to confirm the booking after users have filled in all the required information and summitted the booking form.
+- This page will show up to confirm the booking after users have filled out all the required information and summitted the booking form.
 - The Success page has the same layout as the booking form to make it simple as possible.
 
 ![Screenshot of the success page in the website](/documentation/readme/success.png)
@@ -136,7 +136,7 @@ Testimonials/Customer Reviews
 - I would like to add a textarea where users can write reviews. This section could help sit's owner improve the service and users get to share their experience to another users.
 
 Sign up section
-- I would like to add the sign up section after the testimonials in the home page and create a sign up form by using Bootstrap to create form similar to the booking form.
+- I would like to add the sign up section after the testimonials in the home page and create a sign up form by using Bootstrap to create a form similar to the booking form.
 
 
 ## Testing
@@ -150,8 +150,8 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
    - When I opened the first deployment in the new tab the website didn't show the style only the plain HTML so I edited the CSS link in HTML and removed the slash(/) to change that to a relative link. Now, all styles show up and work fine.
 
 - The radio button in the Booking form didn't work properly
-   - When I click on both radio buttons, they were selected both and can not undo it. I want users select just one button(new or old member)
-   - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name to radio buttons. Now It works properly as I wanted.
+   - When I click on both radio buttons, they were selected both and could not undo it. I want users select just one button(new or old member)
+   - I found out that I have different value for name attribute so to solve this issue, I needed to have a same name in the radio buttons. Now, It works properly as I wanted.
 
 - During the deployment I have a temporary issue from Github which showed failed to deploy but not something cause by my code.
 
