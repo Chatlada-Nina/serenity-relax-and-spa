@@ -203,7 +203,7 @@ To clone the repository:
 I would like to thank you the following people:
 
 * Jubril Akolade - My code Institute mentor.
-* Eric - my partner who is always supportive and beleive in me.
+* Eric - my partner who is always supportive and believe in me.
 
 
 
