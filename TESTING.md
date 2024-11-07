@@ -109,11 +109,11 @@ Each device tested the site using the following browsers:
 | Contact | Direct users to the contact section on the footer | Clicked on the text | Direct users to the contact section on the footer | Pass |
 | BOOK NOW Button | Direct users to the booking page | Clicked on button | Direct users to the booking page | Pass |
 | Radio button | Always show checked on New button and users can check only one radio button either New or Old | Clicked on each button | Can check only one radio button either New or Old | Pass |
-| Fullname input | Users must fill in their name before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
-| Phone number input | Users must fill in their phone number before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
-| E-mail input | Users must fill in their e-mail before submitting the form| leaved it empty and tried to click Submit | A required message popped up | Pass |
-| Select programs input | Users must select a program before submitting the form| tried to click Submit without select any program | A required message popped up | Pass |
-| Date and Time input | Users must select date and time before submitting the form| tried to click Submit without select any date and time | A required message popped up | Pass |
+| Fullname input | Users must fill in their name before submitting the form| Leaved it empty and tried to click Submit | A required message popped up | Pass |
+| Phone number input | Users must fill in their phone number before submitting the form | Leaved it empty and tried to click Submit | A required message popped up | Pass |
+| E-mail input | Users must fill in their e-mail before submitting the form| Leaved it empty and tried to click Submit | A required message popped up | Pass |
+| Select programs input | Users must select a program before submitting the form| Tried to click Submit without select any program | A required message popped up | Pass |
+| Date and Time input | Users must select date and time before submitting the form| Tried to click Submit without select any date and time | A required message popped up | Pass |
 | Message input | User can write something there or leave it empty | Writed something and clicked submit, leaved it empty and clicked submit | Direct users to the success page | Pass |
 | All buttons - hover effect | All brown buttons with white text should change to light brown with dark-gray text when hovered over. | Hover over each button on the page | Each button displayed correctly styling when hovered over | Pass |
 | Pointer Cursor | The pointer should display when a user moves the mouse over a button | Moved the mouse over each button to check the cursor changed upon entering the button | The cursor changed from the arrow cursor to the pointer cursor | Pass |
